@@ -1,7 +1,19 @@
 /*
-    Refatore o código do Ex2 incluindo histórico de vendas
-    (Até 100 vendas).
-    E incluindo o valor total vendido.
-    Isso devem ser 2 novas opções apresentadas ao
-    usuário através do menu.
+    Escreva um programa em C que funcione como um sistema bancário.
+    O programa consistirá no seguinte menu:
+
+    1. Cadastrar Cliente
+    2. Consultar Saldo
+    3. Realizar Saque
+    4. Realizar Depósito
+    5. Consultar Extrato
+    6. Sair
+
+    - O programa só poderá ser encerrado quando o usuário
+    escolher a opção de sair.
+    - O Cadastro do Cliente consiste em Nome, Idade, Endereço, C/C, saldo.
+    - O Endereço consiste em Rua, Número e Bairro.
+    - O sistema pode armazenar ATÉ 50 clientes.
+    - O extrato de cada cliente pode armazenar ATÉ 50 transações,
+    contendo o tipo de transação (saque ou depósito e o valor)
 */
